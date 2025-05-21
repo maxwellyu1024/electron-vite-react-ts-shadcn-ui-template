@@ -1,5 +1,5 @@
 {
-  "name": "electron-vite-react-ts-shadcn-ui-template",
+  "name": "electron-demo",
   "version": "1.0.0",
   "description": "An Electron application with React and TypeScript",
   "main": "./out/main/index.js",
@@ -76,7 +76,7 @@
     "@electron-toolkit/eslint-config-ts": "^3.1.0",
     "@electron-toolkit/tsconfig": "^1.0.1",
     "@types/node": "^22.15.21",
-    "@types/react": "^19.1.4",
+    "@types/react": "^19.1.5",
     "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react": "^4.4.1",
     "electron": "^35.4.0",
@@ -91,11 +91,5 @@
     "react-dom": "^19.1.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "electron",
-      "esbuild"
-    ]
   }
 }

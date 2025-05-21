@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: electron-vite-react-ts-shadcn-ui-template
+productName: electron-demo
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: electron-vite-react-ts-shadcn-ui-template
+  executableName: electron-demo
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}
