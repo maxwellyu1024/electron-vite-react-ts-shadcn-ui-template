@@ -1,5 +1,5 @@
 import Versions from './components/Versions'
-import electronLogo from './assets/electron.svg'
+// import electronLogo from './assets/electron.svg'
 import { Button } from '@/components/ui/button'
 
 function App(): React.JSX.Element {
